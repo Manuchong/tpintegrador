@@ -1,0 +1,85 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+#carouselExampleSlidesOnly{ 
+width: calc((10em -100%)*1000);
+    max-width: 100%;
+    float: center;
+    margin-right: 4em;
+   margin-bottom: 4em;	
+
+    margin-top: 163px;
+    position: relative;
+    left: 52%;
+    opacity: 1;
+    text-align: right;
+}
+.carousel-inner .card {
+    position: relative;
+    margin-top: 18vw;
+    width: 50%;
+    margin-left: 43vw;
+    text-align: right;
+    color: #FFFFFF;
+    float: left;   
+}
+.container .navbar-toggler .navbar-toggler-icon {
+    width: 1em;
+    margin-top: 45px;
+    margin-bottom: 64px;
+}
+.navbar-brand {margin-left: 4rem;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    position: relative;
+    right: 0em;
+    left: 11em;
+	padding-bottom: 1em;
+	padding-top: 1em;
+    font-size: 14px;
+    text-indent: -8px;
+}
+.menuTwo {
+    margin-top: 15px;
+    text-align: center;
+    display: block;
+    font-weight: lighter;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 0px;
+    background-image: -webkit-linear-gradient(147deg,rgba(5,90,114,1.00) 0%,rgba(6,15,98,1.00) 100%);
+    background-image: -moz-linear-gradient(147deg,rgba(5,90,114,1.00) 0%,rgba(6,15,98,1.00) 100%);
+    background-image: -o-linear-gradient(147deg,rgba(5,90,114,1.00) 0%,rgba(6,15,98,1.00) 100%);
+    background-image: linear-gradient(303deg,rgba(5,90,114,1.00) 0%,rgba(6,15,98,1.00) 100%);
+}
+.atwo{
+    list-style-type: none;
+    font-weight: normal;
+    font-size: small;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.form-control {
+    min-width: 0px;
+    margin-top: -4px;
+    position: relative;
+    text-align: left;
+    margin-right: 6px;
+    padding-left: 12px;
+    margin-bottom: 12px;
+}
+
+.ignite{
+	text-decoration: underline;
+	text-decoration-style: dotted;
+    color:black;
+}
+.slideBsAs{width:100vw;
+
+}
+
