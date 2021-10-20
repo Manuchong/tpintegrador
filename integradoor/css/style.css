@@ -1,0 +1,79 @@
+/* pasado a rem
+*/
+
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+#carouselExampleSlidesOnly{ 
+    margin-top: 100em;
+    position: relative;
+    left: 100em;
+}
+.carousel-inner .card {
+    position: relative;
+    background-color:transparent ;
+    margin-top: 16em;
+    width: 32em;
+    margin-left: 28em;
+    text-align: right;
+    color: #FFFFFF;
+}
+.container .navbar-toggler .navbar-toggler-icon  {
+    width: 10em;
+    margin-top: 50em;
+    margin-bottom: 50em;
+}
+.navbar-brand {margin-left: 3em;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+   position: relative;
+    right: 400em;
+    left:9em;
+	padding-bottom: 1em;
+	padding-top: 1em;
+    font-size: .875rem;
+}
+.menuTwo {
+    margin-top: .94em;
+    text-align: center;
+    display: block;
+    font-weight: lighter;
+    padding-bottom: .75em;
+    padding-top: .75rem;
+    padding-left: 0em;
+    background-image: -webkit-linear-gradient(147deg,rgba(5,90,114,1.00) 0%,rgba(6,15,98,1.00) 100%);
+    background-image: -moz-linear-gradient(147deg,rgba(5,90,114,1.00) 0%,rgba(6,15,98,1.00) 100%);
+    background-image: -o-linear-gradient(147deg,rgba(5,90,114,1.00) 0%,rgba(6,15,98,1.00) 100%);
+    background-image: linear-gradient(303deg,rgba(5,90,114,1.00) 0%,rgba(6,15,98,1.00) 100%);
+}
+.atwo{display: inline-block;
+    list-style-type: none;
+    font-weight: normal;
+    font-size: small;
+    text-decoration: none;
+    margin-left: 1em;
+    margin-right: 1em;
+    vertical-align: middle;
+}
+.form-control {width: fit-content;
+    min-width: -12em;
+    margin-top: 0.5em;
+    position: relative;
+    text-align: left;
+    margin-right:3em;
+    padding-left: 0.7em;
+    margin-bottom: 0.7em;
+}
+
+.ignite{
+	text-decoration: underline;
+	text-decoration-style: dotted;
+    color:black;
+}
+.slideBsAs{width:100vw;
+    filter: brightness(60%);
+
+}
