@@ -16,7 +16,8 @@ box-sizing: border-box;
     position: relative;
     background-color:transparent ;
     margin-top: 16em;
-    width: 32em;
+    min-width: 20em;
+    max-width: 32em;
     margin-left: 28em;
     text-align: right;
     color: #FFFFFF;
@@ -26,7 +27,7 @@ box-sizing: border-box;
     margin-top: 50em;
     margin-bottom: 50em;
 }
-.navbar-brand {margin-left: 3em;
+.navbar-brand {margin-left: 1.5em;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
    position: relative;
@@ -39,7 +40,7 @@ box-sizing: border-box;
 .menuTwo {
     margin-top: .94em;
     text-align: center;
-    display: block;
+   
     font-weight: lighter;
     padding-bottom: .75em;
     padding-top: .75rem;
@@ -58,7 +59,7 @@ box-sizing: border-box;
     margin-right: 1em;
     vertical-align: middle;
 }
-.form-control {width: fit-content;
+.form-control {
     min-width: -12em;
     margin-top: 0.5em;
     position: relative;
@@ -76,4 +77,6 @@ box-sizing: border-box;
 .slideBsAs{width:100vw;
     filter: brightness(60%);
 
+}
+.erase, .resume{margin:  0.5em 0 0  -0.1em ;
 }

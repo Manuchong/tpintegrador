@@ -1,45 +1,25 @@
-
-  
-   @media (max-width:576px){
-   #cardText{
-    position: relative;
-    font-size: 1em;
-    text-align: center;
-    width: 30em;
-    height: 20em;
-    margin-top: -12em;
-    margin-left: -26em;
+@media (max-width:576px){
+  #cardText {display:flex;
+   font-size: 1.2em;
+   max-width:55em;
+   min-width: 20em;
+   margin-top: -16em;
+   margin-left: -27em;
+   text-align: right;
 }
-.img .slideBsAs .button {
-    max-height: 150vw;
 }
 
-
-}
-@media (max-width: 376px){
-#cardText .card.bg-transparent .card-text {
-display:flex;
-    opacity: 40%;
-}
-.carousel-inner #cardText .card {
-    color: #d4c9c9;
-    justify-content: center;
-    margin-top: 13em;
-    margin-right: 30em;
-    margin-left: 28.5em;
-    margin-bottom: -10em;
-    max-width: 18.2em;
-    min-width: 2em;
+@media (max-width: 320px){
+#cardText .card{
+ font-size: .9em;
+    color: #ffffff;
+    max-width: 30em;
+    min-width: 14em;
     text-align: center;
 }
-.nav{display:hidden;
- 
+.navbar{display:none;
+}
 
-}
-.boton {
-  margin-top: 1em;
-  padding-bottom: 1em;
-}
 .menuTwo .atwo{display:block;
   flex-direction: column;
   padding: .3em;
@@ -51,4 +31,4 @@ display:flex;
 
 }
 }
-
+  
